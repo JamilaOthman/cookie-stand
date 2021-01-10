@@ -1,0 +1,19 @@
+body{
+   background-color: rgba(221, 186, 182, 0.911);
+}
+main{
+    display: block;
+    width: 200px;
+    font: 1em sans-serif;
+    font-size: large;
+    background-color: azure;
+
+}
+#p1{
+    color: rgb(102, 81, 81);
+    display: inline-block ;
+    font-style : oblique ;
+    font: 5em sans-serif ;
+    width: 80px;
+
+}
