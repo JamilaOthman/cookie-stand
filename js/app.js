@@ -33,7 +33,6 @@ function makeHeaderRow() {
   salmonTable.appendChild(tableRow);
 };
 
-
 Store.prototype.numCustHourly = function() {
   for (var i = 0; i < hours.length; i++) {
     var singleHourCust = Math.floor(Math.random() * (this.maxCust - this.minCust + 1)) + this.minCust;
