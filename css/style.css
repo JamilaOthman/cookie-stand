@@ -24,8 +24,15 @@ table, th, td {
     border-collapse:separate;
     text-align: center;
     vertical-align: bottom;
-    /* padding: 20px; */
+  
 
+  }
+  #index{
+      width:300 ;
+      height: 200;
+      text-align: center;
+      float: left;
+      font-size: xx-large;
   }
 
   
