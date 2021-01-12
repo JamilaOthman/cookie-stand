@@ -1,0 +1,206 @@
+body {
+    background: rgb(255, 236, 234);
+    margin: 0;
+  }
+  
+  .logo, header {
+    position: relative;
+    width: 50%;
+    max-height: 15%;
+    margin: 0 auto;
+    font-family: 'Bungee Inline';
+    text-align: center;
+  }
+  
+  header {
+    position: absolute;
+    left: 25%;
+    right: 25%;
+    top: 7.5%;
+    color:pink;
+  }
+  
+  h1, h2{
+    text-shadow: 2px 2px #ecfa72;
+  }
+  
+  h1{
+    font-size: 2.5vw;
+  }
+  
+  h2 {
+    font-size: 2.25vw;
+  }
+  
+  img{
+    width:100%;
+    display: block;
+    top: 7.5%
+  }
+  
+  nav {
+    margin: 0 auto;
+    margin-top: 10%;
+    width: 100%;
+    padding: 0;
+    background: whitesmoke;
+    border: outset 5px plum;
+    border-radius: 50%;
+    box-sizing: border-box;
+  }
+  
+  nav ul {
+    margin-left: 20%;
+    margin-right: 10%;
+    padding: 0;
+    height: 35px;
+    background: peachpuff;
+  }
+  
+  nav ul a {
+    color: #e9a7f1;
+    display: block;
+    line-height: 35px;
+    text-decoration: none;
+    font-size: 2vw;
+    width: 100%;
+    font-family: 'Bungee Inline';
+  }
+  
+  nav ul li{
+    float: left;
+    list-style: none;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    width: 20%;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  nav ul ul {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    padding: 0;
+    background: linear-gradient(#a15780, #c082c5e5);
+    border: outset 5px #c956b0;
+    border-top: none;
+    border-radius: 0 0 50% 50%;
+    padding-bottom: 10%;
+  }
+  
+  nav ul ul li {
+    width: 25%;
+  }
+  
+  nav ul ul a{
+    line-height: 120%;
+    text-align: center;
+  }
+  
+  nav ul li:hover > ul {
+    display: block;
+  }
+  
+  .about{
+    background: rgba(224, 205, 203, 0.849);
+    margin: 0 0 0 10%;
+    position: relative;
+    top: 5%;
+    float: left;
+    width: 60%;
+  }
+  
+  h3, h4, h5 {
+    font-family: 'Nunito';
+  }
+  
+  h3{
+    font-size: 2vw;
+  }
+  
+  h4 {
+    font-size: 3vw;
+    text-align: center;
+    text-shadow: plum;
+  }
+  
+  h5 {
+    font-size: 1.5vw;
+  }
+  
+  h6 {
+    font-size: 1.25vw;
+  }
+  
+  aside{
+    float: right;
+    clear: right;
+    display: inline-block;
+    font-family: 'Merriweather';
+    width: 20%;
+    margin-right: 5%;
+    background: whitesmoke(94, 85, 84, .5);
+    margin-top: 2.5%;
+    padding: 1%;
+  }
+  
+  aside ul{
+    list-style: none;
+  }
+
+  #sale {
+      font-style: initial;
+      font-size: xx-large;
+      color: plum;
+
+
+  }
+#pat{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+    color: salmon;
+    text-shadow:brown;
+}
+#Locations{
+    font-size: xx-large;
+    text-shadow: plum;
+}
+#Location{
+    font-size: large;
+    text-align: center;
+    text-decoration: purple;
+}
+
+#img1{
+    width: 500px;
+    height: 750px;
+    float: left;
+}
+#img2{
+    width: 500px;
+    height: 750px;
+    float: right;
+}
+#img3{
+    width: 500px;
+    height: 750px;
+    float: left;
+}
+#img4{
+    width: 500px;
+    height: 750px;
+    float: right;
+}
+#img5{
+    width: 500px;
+    height: 750px;
+    float: left;
+}
+#img6{
+    width: 500px;
+    height: 750px;
+    float: right;
+}
