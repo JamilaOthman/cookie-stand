@@ -108,7 +108,7 @@ function footerRow() {
   for (var i =0; i<num; i++){
     var sum=0;
     var td1=document.createElement('td');
-    for(var j=0; j< storeLocations.length; j++);{
+    for (var j=0; j< storeLocations.length; j++){
       console.log(j);
       console.log(i);
      sum+=storeLocations[j].cookiesPerHour[i];
@@ -134,7 +134,7 @@ function render(num) {
 
     
   }
-// table.append(footerRow());
+table.append(footerRow());
 }
 render(0);
 
