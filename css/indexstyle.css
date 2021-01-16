@@ -1,15 +1,20 @@
 body{
-  background-color: rgba(240, 255, 255, 0.808);
+  background-color: rgba(241, 255, 255, 0.952);
   width: 100%;
   margin: 0;
   
 }
-.navigation{
+ .navigation{
   width:100%;
   height:80px;
-  background-color: white;
+  background-color: white; 
+   z-index: 1; 
+   padding: 25 px; 
+   font-family: 'Fredericka the Great';
+  padding: 28px;
 
 }
+
 a{
   height: 80px;
   color: black;
@@ -24,8 +29,8 @@ a{
   width: 150px;
   height: 50px;
   float: right;
-  padding-left: 20px;
-  padding-top: 15px;
+  padding-left: 50px;
+  padding-top: 50px;
 }
 a:hover{
   color: orange;
@@ -39,6 +44,52 @@ table,th {
 td{
   border:1px solid black;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-
-
+}
+footer{
+  text-align: center;
+  margin-top: 20px;
+  width: 100%;
+  background-color: brown;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+main h4{
+  font-family: Georgia, serif;
+  text-shadow: 2cm;
+  font-size: 50px;
+  overflow: visible;
+  margin-top: 20px;
+margin-bottom: 20px;
+margin-left: 100px;
+margin-right: 100px;
+background-image: url(/images/family.jpg);
+width: 100%;
+background-repeat: no-repeat;
+height: 500px;
+margin-top: 20px;
+margin-bottom: 20px;
+margin-left: 200px;
+margin-right: 200px;
+}
+#part2{
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: rgb(114, 158, 158);
+  font-size: 50px;
+}
+main p{
+  color: #685206; font-family: 'Helvetica Neue', sans-serif; font-size: 14px; line-height: 24px; margin: 20 100 20 100 px; text-align: center; text-justify: inter-word
+}
+hr{
+  color: grey;
+  border-style: dashed;
+  
+}
+#part3{
+  color: rgb(95, 51, 51); font-family: 'Helvetica Neue', sans-serif; font-size: 14px;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ; line-height: 24px; margin: 50 100 50 100 px; text-align: center; text-justify: inter-word;
+}
+#part4{
+  display:inline-block;
+  margin: 15px;
+  padding: 15px;
 }
